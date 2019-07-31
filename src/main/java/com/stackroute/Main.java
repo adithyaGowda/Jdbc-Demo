@@ -8,6 +8,7 @@ public class Main
 
         JdbcBasicDemo jdbcBasicDemo =  new JdbcBasicDemo();
         jdbcBasicDemo.displayUser();
+        jdbcBasicDemo.getUserByName("Mary");
         
     }
 }
